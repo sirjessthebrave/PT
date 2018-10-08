@@ -43,6 +43,8 @@ p {
 }
 .contact li a{
   color: #000000;
+  text-decoration: none;
+ padding: 0 5px;
 }
 .clearfix:after {
   content: "";
