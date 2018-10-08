@@ -15,7 +15,7 @@ p {
   font-weight: 300;
 }
 .logo{
-  float: left;
+  float: right;
   width: 40%;
   box-sizing: border-box;
 }
@@ -49,3 +49,23 @@ p {
   display: table;
   clear: both;
 }
+
+@media only screen 
+  and (max-width: 800px) {
+    main {
+      position: relative;
+      margin-top: 5%;
+    }
+    .logo, .intro {
+      width: 100%;
+      padding-left: 0;
+    }
+    .intro {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .logo img{
+      max-width: 100%;
+    }
+  }
