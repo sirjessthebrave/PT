@@ -1,0 +1,51 @@
+body{
+ font-family: 'Raleway', sans-serif;
+}
+main {
+  position: absolute;
+  top: 25%;
+}
+h1 {
+  margin: 0;
+  padding-top: 30px;
+}
+p {
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.logo{
+  float: left;
+  width: 40%;
+  box-sizing: border-box;
+}
+.logo img{
+  width: 100%;
+  max-width: 300px;
+}
+.container {
+  margin: 0 auto;
+}
+.intro {
+  width: 60%;
+  text-align: right;
+  float: left;
+  box-sizing: border-box;
+  padding-left: 200px;
+}
+.contact {
+  padding: 0;
+}
+.contact li{
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+.contact li a{
+  color: #000000;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
